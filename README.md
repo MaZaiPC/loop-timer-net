@@ -1,7 +1,7 @@
 # LoopTimer
 
 <a href="https://github.com/MaZaiPC/loop-timer-net"><img
-  src="http://i.imgur.com/XaVPfqn.png" alt="Repository Logo"
+  src="http://i.imgur.com/zHSlINX.png" alt="Repository Type"
   width="80" height="80" align="right"></a>
 
 > Таймер с функцией автоперезапуска
