@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
-using System.Linq;
 using System.Media;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using LoopTimer.Properties;
 using TTimer = System.Threading.Timer;
@@ -26,7 +19,7 @@ namespace LoopTimer
 		public LauncherForm()
 		{
 			InitializeComponent();
-			time = new TimeSpan(0, (int)numHours.Value, 0, 0);
+			time = new TimeSpan(0, (int) numHours.Value, 0, 0);
 			fTimer = new FTimer();
 			fTimer.Interval = 1000;
 			fTimer.Tick += (sender, args) =>
@@ -85,7 +78,7 @@ namespace LoopTimer
 			time = new TimeSpan(0, tm.Hours, tm.Minutes, tm.Seconds);
 			timerDisplay.Text = time.ToString(@"hh\:mm\:ss");
 		}
-
+		
 		private void button_EnabledChanged(object sender, EventArgs e)
 		{
 			var control = sender as Control;

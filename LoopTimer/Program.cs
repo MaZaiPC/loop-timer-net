@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace LoopTimer
@@ -16,6 +14,12 @@ namespace LoopTimer
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
+
+			if (!File.Exists("font_data.bin"))
+			{
+				FileInfo devFile = new FileInfo(@"..\..\font_data.bin");
+				if (devFile.Exists) devFile.CopyTo("font_data.bin");
+			}
 			Application.Run(new LauncherForm());
 		}
 	}
