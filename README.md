@@ -10,9 +10,9 @@
 [![changelog][changelog-image]][changelog-url]
 
 
-**Скачать**
+**Скачать:**
 
-* [Последняя версия][lastest-version-url]
+**версия: 1.0.1** [LoopTimer #7c57e83](https://github.com/MaZaiPC/loop-timer-net/releases/download/v1.0.1/release.zip)
 
 
 ## Выражение признательности
@@ -24,5 +24,3 @@
 [changelog-url]: CHANGELOG.md
 [license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat
 [license-url]: LICENSE.md
-
-[lastest-version-url]: https://github.com/MaZaiPC/loop-timer-net/releases/download/v1.0.1/release.zip (v1.0.1)
