@@ -12,7 +12,7 @@
 
 **Скачать**
 
-Ссылка: https://github.com/MaZaiPC/loop-timer-net/archive/master.zip
+* [Последняя версия][lastest-version-url]
 
 
 ## Выражение признательности
@@ -24,3 +24,5 @@
 [changelog-url]: CHANGELOG.md
 [license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat
 [license-url]: LICENSE.md
+
+[lastest-version-url]: https://github.com/MaZaiPC/loop-timer-net/releases/download/v1.0.1/release.zip (v1.0.1)
