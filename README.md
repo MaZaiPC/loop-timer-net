@@ -1,6 +1,6 @@
 # LoopTimer
 
-<a href="https://github.com/MaZaiPC/loop-timer-net"><img
+<a href="https://github.com/Moreniell/loop-timer-net"><img
   src="http://i.imgur.com/zHSlINX.png" alt="Repository Type"
   width="80" height="80" align="right"></a>
 
@@ -12,7 +12,7 @@
 
 **Скачать:**
 
-**версия: 1.0.1** [LoopTimer #7c57e83](https://github.com/MaZaiPC/loop-timer-net/releases/download/v1.0.1/release.zip)
+**версия: 1.0.1** [LoopTimer #7c57e83](https://github.com/Moreniell/loop-timer-net/releases/download/v1.0.1/release.zip)
 
 
 ## Выражение признательности
